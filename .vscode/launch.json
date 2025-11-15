@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Java App",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "patri.psc.App",
+            "projectName": "app"
+        },
+        {
+            "name": "Run C# App",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/csproject/bin/Debug/net8.0/seuProjetoCsharp.dll",
+            "cwd": "${workspaceFolder}/csproject",
+            "stopAtEntry": false
+        }
+    ]
+}

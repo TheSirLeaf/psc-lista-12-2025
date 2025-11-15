@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Java (Gradle)",
+            "type": "shell",
+            "command": ".\\gradlew.bat",
+            "args": ["run"],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/javaproject/"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run C#",
+            "type": "shell",
+            "command": "dotnet",
+            "args": ["run"],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/csproject/"
+            }
+        }
+    ]
+}
